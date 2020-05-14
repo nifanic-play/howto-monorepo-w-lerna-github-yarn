@@ -20,5 +20,6 @@
     "@nifanic-play/alpha": "^1.0.0",
     "@nifanic-play/beta": "^1.0.1",
     "@nifanic-play/gamma": "^1.0.1"
-  }
+  },
+  "gitHead": "8efc5cc918397873617a7ea5cf3d4f1a3b38121d"
 }

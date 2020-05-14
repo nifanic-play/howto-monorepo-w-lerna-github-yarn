@@ -18,5 +18,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nifanic-play/howto-monorepo-w-lerna-github-yarn.git"
-  }
+  },
+  "gitHead": "8efc5cc918397873617a7ea5cf3d4f1a3b38121d"
 }
