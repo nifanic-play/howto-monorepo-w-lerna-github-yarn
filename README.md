@@ -506,11 +506,11 @@ lerna success published 3 packages
 
 Check your newly publised packages on GitHub—
 
-![](img/2020-05-13_14-15-03.png | width=1080px)
+![](img/2020-05-13_14-15-03.png)
 
 Click to "3 packages" tab to reveal published packages—
 
-![](img/2020-05-13_14-28-44.png | width=1080px)
+![](img/2020-05-13_14-28-44.png)
 
 Congrats! You have successfully published your packages. Now it’s time to import the published packages.
 
@@ -559,9 +559,9 @@ Remove `__tests__` and `lib` folders, as before.
 We are importing packages, and check their output:
 
 ```typescript
-import { Alpha } from "@nifanic-play/alpha";
-import { Beta } from "@nifanic-play/beta";
-import { Gamma } from "@nifanic-play/gamma";
+import { Alpha } from "@YOUR_GITHUB_USERNAME/alpha";
+import { Beta } from "@YOUR_GITHUB_USERNAME/beta";
+import { Gamma } from "@YOUR_GITHUB_USERNAME/gamma";
 
 console.log(new Alpha());
 console.log(new Beta());
