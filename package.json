@@ -8,5 +8,8 @@
   },
   "scripts": {
     "release": "lerna run build && lerna publish"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
