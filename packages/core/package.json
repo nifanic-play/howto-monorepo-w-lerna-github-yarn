@@ -7,12 +7,18 @@
   "main": "lib/index",
   "types": "lib/index",
   "scripts": {
-    "clean": "rm -rf ./node_modules ./lib tsconfig.tsbuildinfo",
-    "compile": "tsc -b tsconfig.json",
-    "build": "yarn clean && yarn compile"
+    "start": "ts-node ./src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nifanic-play/howto-monorepo-w-lerna-github-yarn.git"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1"
+  },
+  "dependencies": {
+    "@nifanic-play/alpha": "^1.0.0",
+    "@nifanic-play/beta": "^1.0.0",
+    "@nifanic-play/gamma": "^1.0.0"
   }
 }
