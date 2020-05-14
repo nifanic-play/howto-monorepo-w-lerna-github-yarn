@@ -1,6 +1,6 @@
 {
   "name": "core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core module to check published packages",
   "author": "nifanic <nifanic@masterpage.net>",
   "license": "ISC",
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@nifanic-play/alpha": "^1.0.0",
-    "@nifanic-play/beta": "^1.0.0",
-    "@nifanic-play/gamma": "^1.0.0"
+    "@nifanic-play/beta": "^1.0.1",
+    "@nifanic-play/gamma": "^1.0.1"
   }
 }
