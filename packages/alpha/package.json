@@ -14,5 +14,9 @@
     "clean": "rm -rf ./node_modules ./lib tsconfig.tsbuildinfo",
     "compile": "tsc -b tsconfig.json",
     "build": "yarn clean && yarn compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nifanic-play/howto-monorepo-w-lerna-github-yarn.git"
   }
 }
